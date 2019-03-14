@@ -3527,18 +3527,7 @@ X_train2.index = X_train.index.values
 X_test2.index = X_test.index.values
 X_train = X_train2
 X_test = X_test2
-```
 
-    /Users/parthkotecha/anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/data.py:625: DataConversionWarning: Data with input dtype int64 were all converted to float64 by StandardScaler.
-      return self.partial_fit(X, y)
-    /Users/parthkotecha/anaconda3/lib/python3.6/site-packages/sklearn/base.py:462: DataConversionWarning: Data with input dtype int64 were all converted to float64 by StandardScaler.
-      return self.fit(X, **fit_params).transform(X)
-    /Users/parthkotecha/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py:11: DataConversionWarning: Data with input dtype int64 were all converted to float64 by StandardScaler.
-      # This is added back by InteractiveShellApp.init_path()
-
-
-
-```python
 #Model Building
 
 from sklearn.linear_model import LogisticRegression
